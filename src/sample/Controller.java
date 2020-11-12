@@ -37,14 +37,7 @@ public class Controller {
 
     @FXML
     void initialize() {
-        assert enterCityField != null : "fx:id=\"enterCityField\" was not injected: check your FXML file 'sample.fxml'.";
-        assert searchButton != null : "fx:id=\"searchButton\" was not injected: check your FXML file 'sample.fxml'.";
-        assert tempField != null : "fx:id=\"tempField\" was not injected: check your FXML file 'sample.fxml'.";
-        assert feelField != null : "fx:id=\"feelField\" was not injected: check your FXML file 'sample.fxml'.";
-        assert maxField != null : "fx:id=\"maxField\" was not injected: check your FXML file 'sample.fxml'.";
-        assert minField != null : "fx:id=\"minField\" was not injected: check your FXML file 'sample.fxml'.";
-        assert pressField != null : "fx:id=\"pressField\" was not injected: check your FXML file 'sample.fxml'.";
-
+        searchButton.setOnAction(event -> System.out.println("Все работает!"));
     }
 }
 
