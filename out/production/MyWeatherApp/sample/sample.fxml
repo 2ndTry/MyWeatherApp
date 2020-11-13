@@ -6,72 +6,67 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: #7FFFD4;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <AnchorPane prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #008B8B;">
+      <AnchorPane prefHeight="79.0" prefWidth="250.0" style="-fx-background-color: #008080;">
          <children>
-            <Text layoutX="47.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WEATHER" textAlignment="CENTER">
+            <Text fontSmoothingType="LCD" layoutX="20.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE WEATHER">
                <font>
-                  <Font name="Rockwell Bold" size="30.0" />
+                  <Font name="Rockwell" size="30.0" />
                </font>
             </Text>
          </children>
       </AnchorPane>
-      <TextField fx:id="enterCityField" alignment="TOP_CENTER" disable="true" layoutX="50.0" layoutY="64.0" promptText="Enter City" style="-fx-background-color: #008B8B; -fx-border-color: black; -fx-background-radius: 10; -fx-border-radius: 10;" />
-      <Button fx:id="searchButton" alignment="TOP_CENTER" disable="true" layoutX="50.0" layoutY="109.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="151.0" style="-fx-background-color: #008B8B; -fx-background-radius: 10; -fx-border-radius: 10;" text="SEARCH">
-         <font>
-            <Font name="System Bold" size="12.0" />
-         </font>
-      </Button>
-      <Text layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature" textAlignment="CENTER">
-         <font>
-            <Font name="Rockwell Bold" size="20.0" />
-         </font>
-      </Text>
-      <Text layoutX="53.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feeling" textAlignment="CENTER">
-         <font>
-            <Font name="Rockwell Bold" size="20.0" />
-         </font>
-      </Text>
-      <Text layoutX="26.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum" textAlignment="CENTER">
-         <font>
-            <Font name="Rockwell Bold" size="20.0" />
-         </font>
-      </Text>
-      <Text layoutX="29.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum" textAlignment="CENTER">
-         <font>
-            <Font name="Rockwell Bold" size="20.0" />
-         </font>
-      </Text>
-      <Text layoutX="43.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pressure" textAlignment="CENTER">
-         <font>
-            <Font name="Rockwell Bold" size="20.0" />
-         </font>
-      </Text>
-      <TextField fx:id="tempField" disable="true" layoutX="134.0" layoutY="206.0" opacity="0.0" prefHeight="25.0" prefWidth="87.0">
+      <TextField fx:id="enterCityField" alignment="CENTER" layoutX="51.0" layoutY="97.0" promptText="CITY" style="-fx-background-color: #B0E0E6; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: black;" />
+      <Button fx:id="searchButton" layoutX="53.0" layoutY="144.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="151.0" style="-fx-background-color: #B0E0E6; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10;" text="SEARCH" />
+      <TextField fx:id="tempField" layoutX="129.0" layoutY="200.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="feelField" disable="true" layoutX="134.0" layoutY="240.0" opacity="0.0" prefHeight="25.0" prefWidth="87.0">
+      <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature" textAlignment="RIGHT" wrappingWidth="90.6923828125">
          <font>
-            <Font size="14.0" />
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feeling" textAlignment="RIGHT" wrappingWidth="90.6923828125">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum" textAlignment="RIGHT" wrappingWidth="90.6923828125">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum" textAlignment="RIGHT" wrappingWidth="90.6923828125">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pressure" textAlignment="RIGHT" wrappingWidth="90.6923828125">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Text>
+      <TextField fx:id="fellField" layoutX="129.0" layoutY="237.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+         <font>
+            <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="maxField" disable="true" layoutX="134.0" layoutY="282.0" opacity="0.0" prefHeight="25.0" prefWidth="87.0">
+      <TextField fx:id="maxField" layoutX="129.0" layoutY="272.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
-            <Font size="14.0" />
+            <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="minField" disable="true" layoutX="134.0" layoutY="324.0" opacity="0.0" prefHeight="25.0" prefWidth="87.0">
+      <TextField fx:id="minField" layoutX="129.0" layoutY="305.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
-            <Font size="14.0" />
+            <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="pressField" disable="true" layoutX="134.0" layoutY="361.0" opacity="0.0" prefHeight="25.0" prefWidth="87.0">
+      <TextField fx:id="pressField" layoutX="129.0" layoutY="339.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
-            <Font size="14.0" />
+            <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
    </children>

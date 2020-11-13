@@ -24,7 +24,7 @@ public class Controller {
     private TextField tempField;
 
     @FXML
-    private TextField feelField;
+    private TextField fellField;
 
     @FXML
     private TextField maxField;
@@ -37,7 +37,10 @@ public class Controller {
 
     @FXML
     void initialize() {
-        searchButton.setOnAction(event -> System.out.println("Все работает!"));
+        searchButton.setOnAction(event -> {
+            System.out.println("Работает!");
+        });
     }
 }
+
 
