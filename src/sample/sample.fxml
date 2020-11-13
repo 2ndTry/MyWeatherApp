@@ -19,7 +19,7 @@
       </AnchorPane>
       <TextField fx:id="enterCityField" alignment="CENTER" layoutX="51.0" layoutY="97.0" promptText="CITY" style="-fx-background-color: #B0E0E6; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: black;" />
       <Button fx:id="searchButton" layoutX="53.0" layoutY="144.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="151.0" style="-fx-background-color: #B0E0E6; -fx-background-radius: 10; -fx-border-color: black; -fx-border-radius: 10;" text="SEARCH" />
-      <TextField fx:id="tempField" layoutX="129.0" layoutY="200.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+      <TextField fx:id="temp" layoutX="129.0" layoutY="200.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
@@ -49,22 +49,22 @@
             <Font name="Rockwell" size="14.0" />
          </font>
       </Text>
-      <TextField fx:id="fellField" layoutX="129.0" layoutY="237.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+      <TextField fx:id="feels_like" layoutX="129.0" layoutY="237.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="maxField" layoutX="129.0" layoutY="272.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+      <TextField fx:id="temp_max" layoutX="129.0" layoutY="272.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="minField" layoutX="129.0" layoutY="305.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+      <TextField fx:id="temp_min" layoutX="129.0" layoutY="305.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="pressField" layoutX="129.0" layoutY="339.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
+      <TextField fx:id="pressure" layoutX="129.0" layoutY="339.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #20B2AA;">
          <font>
             <Font name="Rockwell" size="14.0" />
          </font>
